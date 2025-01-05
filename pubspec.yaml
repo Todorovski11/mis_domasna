@@ -1,0 +1,33 @@
+name: mis_domasna
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_map: ^4.0.0
+  latlong2: ^0.8.1
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets configuration
+  assets:
+    - assets/first_image.png
+    - assets/mojito.jpg
+    - assets/amaretto_sour.jpg
+    - assets/moscow_mule.jpg
+    - assets/tequila_sunrise.jpg
+    - assets/classic_martini.jpg
+    - assets/profile_picture.jpg
